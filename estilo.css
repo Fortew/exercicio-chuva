@@ -1,0 +1,108 @@
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        
+        #titulo1 {
+            font-size: 13px;
+            color: black;
+            background-color: #f7d4c4;
+            position: none;
+            padding: 3px 0px 15px 230px;
+            margin: 0.0px;
+        }
+        
+        #descreve {
+            font-size: 17px;
+            color: rgb(0, 0, 0);
+        }
+        
+        #titleslaca {
+            background-color: rgb(255, 140, 8);
+            color: white;
+            font-size: 17px;
+            padding: 8px;
+            text-align: center;
+            height: 11%;
+        }
+        
+        nav {
+            height: 100%;
+            background-color: #ffffff;
+            position: fixed;
+            top: 0;
+            left: 0;
+            box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+        }
+        
+        nav a {
+            color: #504845;
+            font-size: 15px;
+            display: block;
+            font-family: 'Times New Roman', Times, serif;
+            padding: 20px 10px 12px 28px;
+            line-height: 1px;
+        }
+        
+        nav a:hover {
+            color: #504845;
+            background-color: #f7d4c4;
+        }
+        
+        .juntando {
+            font-size: 20px;
+            color: #f16b2c;
+            background-color: #ffffff;
+            padding: 10px 2px 14px 220px;
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            align-items: flex-start
+        }
+        
+        .juntar {
+            font-size: .8rem;
+            letter-spacing: 1px;
+            padding: 10px 2px 14px 220px;
+        }
+        
+        textarea {
+            max-width: 100%;
+            line-height: 1.5;
+            border: none;
+            box-shadow: 1px 1px 1px #999;
+            border-radius: 5px;
+            margin-left: 1px;
+        }
+        
+        #resumo {
+            display: block;
+            margin-bottom: 0px;
+            background-color: #f7d4c4;
+            width: 800px;
+            height: 30px;
+            border: 1px solid rgb(255, 200, 200);
+            border-radius: 5px;
+        }
+        
+        .discussion {
+            font-size: 13px;
+            background-color: #f7d4c4;
+            border: 8px solid #f7d4c4;
+            border-radius: 5px;
+            height: 522%;
+            width: 70%;
+        }
+        
+        @media screen and (max-width: 600px) {
+            nav,
+            nav a,
+            nav a:hover {
+                float: none;
+                text-align: center;
+                width: 100%;
+            }
+        }
